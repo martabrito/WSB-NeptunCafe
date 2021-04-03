@@ -1,0 +1,99 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css')
+  link(rel='stylesheet' href='https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css')
+  link(rel='stylesheet' href='/css/style.css')
+  title Neptun Cafe
+  link(rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon')
+nav.navbar.navbar-expand-lg.navbar-light.shadow.py-0(style='	box-shadow: 0px 0px 2px  black;')
+    a.navbar-brand.text-primary(href='/')
+      img.d-inline-block.align-top(src='/images/Neptun cafe logo.png' width='90' height='60' alt='' style='')
+    button.navbar-toggler.navbar-toggler-right.border-0(type='button' data-toggle='collapse' data-target='#navbar5')
+      span.navbar-toggler-icon
+    #navbar5.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        li.nav-item.text-uppercase
+          a.nav-link(href='/offers')
+            b Oferta
+        li.nav-item.text-uppercase
+          a.nav-link(href='/article')
+            b Ekspresy
+      ul.navbar-nav.ml-auto
+        li.nav-item.text-uppercase
+          a.nav-link(href='/service')
+            b Us&lstrok;ugi
+      a.btn.navbar-btn.ml-md-2.shadow.text-uppercase.btn-outline-info.border-brown.text-body(style='/css/style.css' href='/contact')
+        b Kontakt
+.py-4.bg-light
+  .container
+    .row
+      .mx-auto.text-center.col-lg-6
+        h1.mb-3 Neptun Cafe Gda&nacute;sk
+        p.lead.mb-2
+          .company-info
+                  i.mr-1.fa.fa-road
+                  |  ul.Długi Targ, Gdańsk
+                  br
+                  i.mr-1.fa.fa-phone
+                  |  (058) 284-7309
+                  br
+                  i.mr-1.fa.fa-envelope 
+                  a(href='mailto:neptuncafe.gd@gmail.com') neptuncafe.gd@gmail.com
+                  br
+    br
+    .row
+      .p-4.order-2.order-md-2.col-lg-6(style='')
+        iframe(width='100%' height='350'  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.477319819518!2d18.651037115813722!3d54.34854588020116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd73a1d2d03071%3A0x80de874a0a33d731!2sFontanna%20Neptuna%20w%20Gda%C5%84sku!5e0!3m2!1spl!2spl!4v1617392325479!5m2!1spl!2spl=B&output=embed' scrolling='no' frameborder='0')
+      .px-4.order-1.order-md-2.col-lg-6
+        .contact
+          h2.mb-4 Napisz do nas
+          p.text-success=msg
+          form(method='POST' action='send')
+              label Name
+              input#form44.form-control(type='text' name='name')
+              p
+              label Company
+              input#form44.form-control(type='text' name='company')
+              p
+              label Email Address
+              input#form44.form-control(type='email' name='email')
+              p
+              label Phone Number
+              input#form45.form-control(type='text' name='phone')
+              p.full
+              label Message
+              textarea#form46.form-control(name='message' rows='5')
+              p.full
+              button.btn.btn-primary(type='submit') Wyślij          
+                     
+.py-2.shadow
+  .container
+    .row
+      .col-md-12.d-flex.align-items-center.justify-content-center.my-2
+        a(href='#')
+          i.d-block.fa.fa-facebook-official.text-muted.fa-lg.mr-2
+        a(href='#')
+          i.d-block.fa.fa-instagram.text-muted.fa-lg.mx-2
+        a(href='#')
+          i.d-block.fa.fa-google-plus-official.text-muted.fa-lg.mx-2
+        a(href='#')
+          i.d-block.fa.fa-pinterest-p.text-muted.fa-lg.mx-2
+        a(href='#')
+          i.d-block.fa.fa-reddit.text-muted.fa-lg.mx-2
+        a(href='#')
+          i.d-block.fa.fa-twitter.text-muted.fa-lg.ml-2
+    .row
+      .col-md-12.text-center
+        p.mb-0 Copyrights &copy; 2021 Marta Brito
+
+script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous' style='')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' integrity='sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut' crossorigin='anonymous' style='')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous' style='')
+      
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+script(src='/bower_components/jquery/dist/jquery.js')
+script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+script(src='/js/main.js')
