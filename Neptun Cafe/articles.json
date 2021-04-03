@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "60605f790e969065ce2cd7c6"
+  },
+  "title": "Philips LatteGo",
+  "author": "Marta Brito",
+  "body": "8 rodzajów kaw\r\nZdecyduj, na którą spośród 8 rodzajów kaw masz dzisiaj ochotę. Czy będzie to klasyczna czarna kawa, Café au lait, Café crema, Americano, pyszne Cappuccino, Latte macchiato czy może pobudzające Espresso lub Ristretto? Delektuj się smakiem ulubionej kawy, kiedy tylko chcesz. "
+},{
+  "_id": {
+    "$oid": "606066740e969065ce2cd7c7"
+  },
+  "title": "Nivona CafeRomatica",
+  "author": "Marta Brito",
+  "body": "Ekspres ciśnieniowy kolorowym ekranem, systemem Aroma Balance, funkcją zapisu ustawień „Moja kawa” oraz możliwością parzenia dwóch kaw jednocześnie."
+}]
